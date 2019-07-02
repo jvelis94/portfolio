@@ -102,12 +102,18 @@
   }
 
   @media (max-width: 1000px) {
+    .home-blurb {
+        padding: 15% 0%;
+        height: 60vh;
+    }
+
       .home-blurb h1 {
-        font-size: 1.5em;
+        font-size: 1.7em;
       }
       
       .home-blurb p {
         width: 100%;
+        padding-top: 24px;
       }  
       
       #portfolio {
@@ -129,7 +135,7 @@
 
     .home-blurb a {
         position: relative;
-        top: 300px;
+        top: 165px;
       }
 
   }
