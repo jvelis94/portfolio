@@ -1,5 +1,6 @@
 .nav-bar-size {
     padding: 20px 8%;
+    background-color: #0C2340;
 }
 
 //Nav Styling
@@ -7,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    
 }
 
 .nav-list {
@@ -51,3 +53,24 @@
 }
 
 // End of Nav Styling
+
+//Footer
+footer {
+    background-color: #222222;
+}
+
+footer ul {
+    margin: 0;
+    color: #ffffff;
+    padding: 20px 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  padding: 8px 54px;
+  text-align: center;
+}
+
+//End of Footer
