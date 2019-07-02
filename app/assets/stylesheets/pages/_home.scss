@@ -103,7 +103,7 @@
 
   @media (max-width: 1000px) {
       .home-blurb h1 {
-        font-size: 2em;
+        font-size: 1.75em;
       }
       
       .home-blurb p {
@@ -123,7 +123,19 @@
       }
 
       .experience {
-        font-size: 20px;
+        font-size: 16px;
     }
+
+    .home-blurb {
+        color: #ffffff;
+        text-align: center;
+        height: 75vh;
+        padding: 15% 10%;
+    }
+
+    .home-blurb a {
+        position: relative;
+        top: 190px;
+      }
 
   }
