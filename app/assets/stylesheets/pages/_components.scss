@@ -77,10 +77,12 @@ footer li {
 }
 
 @media (max-width: 1000px) {
+    footer ul {
+        padding: 20px 60px;
+    }
+
     footer li {
-        
-        padding: 8px 16px;
-        
+        padding: 8px 12px;
       }
 }
 

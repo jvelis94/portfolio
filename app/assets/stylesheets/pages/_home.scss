@@ -103,7 +103,7 @@
 
   @media (max-width: 1000px) {
       .home-blurb h1 {
-        font-size: 1.75em;
+        font-size: 1.5em;
       }
       
       .home-blurb p {
@@ -115,27 +115,21 @@
       }
 
       #value-prop h1 {
-          font-size: 2em;
+          font-size: 1.5em;
       }
 
       #value-prop section {
         width: 90%;
+        font-size: .9em;
       }
 
       .experience {
         font-size: 16px;
     }
 
-    .home-blurb {
-        color: #ffffff;
-        text-align: center;
-        height: 75vh;
-        padding: 15% 10%;
-    }
-
     .home-blurb a {
         position: relative;
-        top: 190px;
+        top: 300px;
       }
 
   }
