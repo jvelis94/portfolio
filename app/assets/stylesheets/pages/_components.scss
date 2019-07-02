@@ -1,0 +1,53 @@
+.nav-bar-size {
+    padding: 20px 8%;
+}
+
+//Nav Styling
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.nav-list {
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-list li a {
+    color: #ffffff;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.nav-container-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+@media (max-width: 1000px) {
+    .nav-container {
+        display: none
+    }
+
+    .mobile-nav {
+        display: contents;
+    }
+
+    .nav-list-mobile {
+        display: none;
+        list-style: none;
+        text-align: center;
+    }
+
+}
+
+// End of Nav Styling
