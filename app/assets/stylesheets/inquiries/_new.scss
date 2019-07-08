@@ -1,0 +1,19 @@
+.inquiry-form {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.inquiry-form form {
+    margin-top: 50px;
+}
+
+.inquiry-form form input {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .inquiry-form {
+        width: 90%;
+    }
+}
