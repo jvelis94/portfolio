@@ -1,0 +1,9 @@
+<%= simple_form_for(@inquiry) do |f| %>
+        <p><%= f.input :name, label: 'Title:' %></p> 
+        <p><%= f.input :email, label: 'email:' %></p>
+        <p><%= f.input :phone, label: 'phone:' %></p>
+        <p><%= f.input :website, label: 'website:' %></p>
+        <p><%= f.input :budget, label: 'budget:' %></p>
+        <%= f.text_area :description, label: 'Post Body', style: 'height: 10vh'%>
+        <%= f.button :submit, label: 'Submit', class: 'btn btn-primary', style: 'margin-top: 10px'%>
+    <% end %>

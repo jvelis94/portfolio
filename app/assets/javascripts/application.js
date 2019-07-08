@@ -15,3 +15,11 @@
 //= require turbolinks
 //= require_tree .
 
+let navBar = () => {
+    var x = document.querySelector(".nav-list-mobile");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    }
