@@ -1,9 +1,13 @@
-<%= simple_form_for(@inquiry) do |f| %>
-        <p><%= f.input :name, label: 'Title:' %></p> 
-        <p><%= f.input :email, label: 'email:' %></p>
-        <p><%= f.input :phone, label: 'phone:' %></p>
-        <p><%= f.input :website, label: 'website:' %></p>
-        <p><%= f.input :budget, label: 'budget:' %></p>
-        <%= f.text_area :description, label: 'Post Body', style: 'height: 10vh'%>
-        <%= f.button :submit, label: 'Submit', class: 'btn btn-primary', style: 'margin-top: 10px'%>
+
+<div class='inquiry-form'>
+    <%= simple_form_for(@inquiry) do |f| %>
+        <p><%= f.input :name, label: 'Name:'%></p> 
+        <p><%= f.input :email, label: 'Email:'%></p>
+        <p><%= f.input :phone, label: 'Phone:' %></p>
+        <p><%= f.input :website, label: 'Current website:' %></p>
+        <p><%= f.input :budget, label: 'Budget:' %></p>
+        <p><%= f.input :description, as: :text, label: 'Description:', input_html: { style: 'height: 50vh; width: 100%'} %></p>
+        <%= f.submit 'Inquire', class: 'btn btn-primary', style: 'margin-top: 10px; width: 100px;'%>
     <% end %>
+</div>
+
