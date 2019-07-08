@@ -22,4 +22,4 @@ let navBar = () => {
     } else {
       x.style.display = "block";
     }
-    }
+    };
