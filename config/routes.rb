@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   root to: "pages#home"
   resources :projects
   get '/components', to: 'pages#components', as: 'components'
+  get '/hire', to: 'pages#hire', as: 'hire'
 end

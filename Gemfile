@@ -57,6 +57,7 @@ gem 'devise'
 gem 'webpacker'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'jquery-rails'
+gem 'simple_form'
 
 
 

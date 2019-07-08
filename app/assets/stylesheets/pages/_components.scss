@@ -17,11 +17,18 @@
 
 .nav-list li {
     display: inline-block;
-    padding: 10px 20px;
 }
 
 .nav-list li a {
-    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list li:last-child a {
+    color: #0B2240; 
+    background-color: #ffffff;
 }
 
 .mobile-nav {
@@ -48,10 +55,33 @@
         display: none;
         list-style: none;
         text-align: center;
+        padding-inline-start: 0px;
+        margin-top: 15px;
     }
 
-    
-    
+    .nav-list-mobile li a{
+        display: block;
+        background-color: #222222;
+        color: #ffffff;
+        border-top: 0.5px solid #444444;
+        text-decoration: none;
+        padding: 5px 0;
+        font-weight: bold;
+    }
+
+    .nav-list-mobile li:last-child a {
+        background-color: #ffffff;
+        color: #000000;
+        border: 0.5px solid #ffffff;
+    }
+
+    .nav-bar-size {
+        padding: 20px 0px;
+    }
+
+    .nav-container-mobile {
+        padding: 5px 8%;
+    }
 
 }
 
