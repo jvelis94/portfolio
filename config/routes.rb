@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root to: "pages#home"
   resources :projects
   get '/components', to: 'pages#components', as: 'components'
+  get '/inquiries', to: 'inquiries#new', as: 'new_inquiry'
+  post '/inquiries', to: 'inquiries#create', as: 'inquiries'
 end
