@@ -35,7 +35,36 @@
     align-items: center;
     justify-content: center;
     height: 250px;
-    
+    text-decoration: none;
+}
+
+.item-wrapper {
+  position: relative;
+}
+
+.item-wrapper p {
+  margin: 0;
+}
+
+.item-wrapper .text {
+  opacity: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 8px 0px;
+  color: #ffffff;
+  background: #000000;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+  
+.item-wrapper:hover .text {
+  opacity: 0.8;
 }
 
 #value-prop {
