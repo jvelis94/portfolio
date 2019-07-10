@@ -1,8 +1,33 @@
-<% @inquiry.each do |inquire| %>
-    <%= inquire.name %>
-    <%= inquire.email %>
-    <%= inquire.phone %>
-    <%= inquire.website %>
-    <%= inquire.budget %>
-    <%= inquire.description %>
-<% end %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <style>
+    h4 {
+        display: inline; 
+    }
+
+    p {
+        display: inline;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <h3>You received an inquiry from, <%= @inquiry.name %></h2>
+        <h4>Email: </h4>
+            <p><%= @inquiry.email %> </p>
+            <br><br>
+        <h4>Phone: </h4>
+            <p> <%= @inquiry.phone %> </p>
+            <br><br>   
+        <h4>Budget: </h4>
+            <p> <%= @inquiry.budget %> </p>
+            <br><br>
+        <h4>Website: </h4>
+            <p> <%= @inquiry.website %> </p>
+            <br><br>
+        <h4>Description: </h4>
+            <p style='display: block'> <%= @inquiry.description %> </p>
+  </body>
+</html>

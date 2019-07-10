@@ -1,6 +1,10 @@
 
 <div class='inquiry-form'>
     <%= simple_form_for(@inquiry) do |f| %>
+        <h1 style='text-align: center'>Let's work together!</h1>
+        <br>
+        <p style='font-weight: bold'>Please complete the form below to inquire about working together. <br> General messages may also be sent using the below form.</p>
+        <br>
         <p><%= f.input :name, label: 'Name:'%></p> 
         <p><%= f.input :email, label: 'Email:'%></p>
         <p><%= f.input :phone, label: 'Phone:' %></p>

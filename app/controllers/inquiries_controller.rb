@@ -6,8 +6,10 @@ class InquiriesController < ApplicationController
     def create
         @inquiry = Inquiry.new(inquiry_params)
         if @inquiry.save
-            InquiriesMailer.general_message().deliver
-            format.html { redirect_to root_path, notice: 'Inquiry was successfully sent!' }
+            InquiriesMailer.general_message(@inquiry).deliver
+            respond_to do |format|
+                format.html { redirect_to root_path, notice: 'Inquiry was successfully sent!' }
+            end
           else
             render :new
           end
