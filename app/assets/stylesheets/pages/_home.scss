@@ -63,7 +63,11 @@
   transition: opacity 500ms;
 }
   
-.item-wrapper:hover .text, .item-wrapper:active .text {
+.item-wrapper:hover .text {
+  opacity: 0.8;
+}
+
+.item-wrapper:active .text {
   opacity: 0.8;
 }
 
