@@ -25,7 +25,7 @@
 #portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0.25px solid #ccc;
 }
 
 #portfolio a {
@@ -91,6 +91,10 @@
     position: relative;
     top: 160px;
   }
+
+  .item-wrapper {
+    border: 0.25px solid #ccc;
+}
   
   .arrow-down {
     width: 100%;
@@ -170,5 +174,7 @@
         position: relative;
         top: 165px;
       }
+
+    
 
   }
